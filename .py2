@@ -1,4 +1,4 @@
 EXTENSION OF FILE
 f=input("Input the Filename:")
 f_e = f.split(".")
-print("The extension of the file is : "+repr(f_e[-1]))
+print("The extension of the file is : ",(f_e[-1]))
